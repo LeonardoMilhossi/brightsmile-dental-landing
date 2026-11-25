@@ -1,0 +1,13 @@
+/* Abas: estados ativo e inativo */
+.tab-btn { background: #fff; color: #475569; border-color: #cbd5e1; }
+.tab-btn:hover { border-color: #0d9488; color: #0d9488; }
+.tab-btn[aria-selected="true"] { background: #0d9488; color: #fff; border-color: #0d9488; }
+
+/* Marcador da lista de serviços */
+.check {
+  flex: none; width: 1.25rem; height: 1.25rem; border-radius: 9999px; background: #0d9488;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 12 10 16 18 8'/%3E%3C/svg%3E");
+  background-size: 70%; background-position: center; background-repeat: no-repeat;
+}
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto !important; } }
